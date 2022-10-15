@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import Filter from "./Filter";
 
 const Sidebar = () => {
   const [searchParams,setSearchParams]=useSearchParams();
@@ -31,6 +32,7 @@ const Sidebar = () => {
         </div>
 
       </div>
+      <div><Filter /></div>
     </div>
   );
 };
