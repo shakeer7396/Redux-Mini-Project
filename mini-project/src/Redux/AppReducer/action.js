@@ -3,7 +3,7 @@ import * as types from "./actionTypes";
 import axios from "axios";
 
 
-
+//get products
 const getProducts = () => (dispatch) =>{
     dispatch({type:types.GET_PRODUCTS_REQUEST})
 
